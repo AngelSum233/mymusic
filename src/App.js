@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router,
   Link
 } from "react-router-dom";
+import Header from './components/Header';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <div className="home">
         <div className="home-top">
+          <Header />
         </div>
         <div className="home-content">
           <div className="home-left">

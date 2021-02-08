@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 const Siderbar = () =>{
-  const { SubMenu } = Menu;
   const list = [
     {
       name: '发现音乐',
